@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+}
+p, label{
+    line-height: 1.5;
+}
+p{
+    color: #636f88;
+}
+label{
+    color: #8c96ab;
+}
+h1, h2{
+    font-size: 30px;
+}
+h2{
+    font-weight: 600;
+}
+h4, h6, label{
+    font-size: 12px;
+}
+p, h5{
+    font-size: 14px;
+}
+h4, h5, h6{
+    font-weight: 500;
+}
+h6{
+    color: #636f88;
+}
+h1, h2 , h5, h4{
+    color: #192f60;
+}
+.nav, .filter-field, .card-1-img-cont, .card-1-cont, .card-1-price{
+    display: grid;
+}
+.container, .nav, .nav-item, .page-view, .card-1{
+    width: 100%;
+    height: auto;
+}
+label{
+    font-weight: 400;
+}
+
+.nav{
+    height: 80px;
+    padding: 14px 20px 0px 80px;
+    grid-template-columns: 70% 30%;
+    background: #ce0505;
+}
+.nav .logo span{
+    height: 80px;
+    width: 120px;
+    padding: 0 10px;
+    color: #ce0505;
+    font-size: 35px;
+    background: #fff;
+    border-radius: 50%;
+}
+.nav .nav-item a{
+    margin-right: 20px;
+}
+.nav .nav-item button{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 20px;
+    border: none;
+    border: 1px solid rgba(255, 255, 255, 0.501);
+    border-radius: 3px;
+    background: transparent;
+}
+.page-view{
+    height: 850px;
+    padding: 40px 80px;
+    background-color: #fbfbfb;
+}
+.filter-field{
+    grid-template-columns: 20% 80%;
+}
+.filter-field .filter-field-nav{
+    height: 570px;
+    margin-top: 30px;
+    padding: 20px 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(206, 206, 206, 0.515);
+}
+.filter-field .filter-field-nav h5{
+    margin: 0 154px 10px 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+.search-field-location select, option{
+    width: 195px;
+    height: 35px;
+    padding: 8px 16.7px 7px 5px;
+    margin-top: 8px;
+    border-radius: 3px;
+    color: #8c96ab;
+    border: solid 1px #8c96ab;
+    outline: none;
+}
+.filter-field-cruise{
+    margin-top: 20px;
+    font-size: 14px;
+    color: #8c96ab;
+}
+.filter-field-cruise h4{
+    margin: 22px 157px 5px 1px;
+}
+.filter-field-cruise input[type="checkbox"]{
+    width: 15px;
+    height: 15px;
+    border-radius: 1.5px;
+    border: solid 1.5px #3a5075;
+    background-color: #3a5075;
+}
+
+.filter-field-cruise label{
+    margin: 0 0 0 10px;
+}
+
+.cost-for-two h4{
+    margin: 26px 50px 5px 1px;
+}
+.cost-for-two label{
+    margin: 0 0 0 10px;
+}
+
+.sort{
+    margin-top: 20px;
+}
+.sort h5{
+    font-size: 18px;
+    font-weight: 600;
+    margin: 29px 172px 5px 0;
+}
+.sort input[type="radio"]{
+    border-radius: 9px;
+    border: solid 1.5px #3a5075;
+}
+.sort label{
+    margin-left: 10px;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.card .card-1{
+    width: 85%;
+    height: 265px;
+    margin: 32px 154px 34px 45px;
+    padding: 25px 32.6px 20px 35px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #fff;
+}
+.card-1 .card-1-img-cont{
+    grid-template-columns: 15% 80%;
+    border-bottom: solid 1px #dedfe5;
+}
+.card-1 .card-1-img-cont img{
+    width: 100%;
+    height: 120px;
+    border-radius: 30px;
+}
+.card-1 .card-1-img-cont .card-content{
+    margin: 14px 0 0 40px;
+}
+.card-1-img-cont .card-content h5{
+    margin: 5px 521.4px 5px 6px;
+    line-height: 1.5;
+    text-transform: uppercase;
+}
+.card-1-img-cont .card-content p{
+    margin: 0px 195.4px 38px 6px;
+    line-height: 1.5;
+}
+.card1-cont-price{
+    margin: 20px 52px 5px 0px;
+    line-height: 1.88;
+}
+.card-1-cont, .card-1-price{
+    grid-template-columns: 20% 80%;
+}
+.card1-cont-price .card-1-cont .card-1-price p{
+    color: #192f60;
+}
+.pagination{
+    display: inline-flex;
+    margin: 0px 195.4px 38px 300px;
+}
+.pagination .left-arrow, .count-1, .count-2, .count-3, .count-4, .count-5, .right-arrow{
+    width: 30px;
+    height: 30px;
+    border-radius: 7px;
+    margin: 0 10px 0 0;
+    border: solid 1px #8c96ab;
+    background-color: #fff;
+}
+.left-arrow, .right-arrow{
+    opacity: 0.2;
+    font-size: 20px;
+    padding: 0px 10.5px 9.5px 8px;
+}
+.right-arrow{
+    opacity: 1;
+    color: #8c96ab;
+}
+.count-1, .count-2, .count-3, .count-4, .count-5{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 2px 0 0 10px;
+    background-color: #8c96ab;
+}
+.count-2, .count-3, .count-4, .count-5, .right-arrow{
+    color: #8c96ab;
+    background-color: transparent;
+}

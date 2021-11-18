@@ -1,0 +1,48 @@
+a{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+}
+p{
+    font-size: 14px;
+    line-height: 1.5;
+    color: #636f88;
+}
+h1{
+    font-size: 30px;
+  }
+h2{
+    font-size: 30px;
+    font-weight: 600;
+}
+h5{
+    font-size: 14px;
+    font-weight: 500;
+}
+h6{
+    font-size: 12px;
+    font-weight: 500;
+    color: #636f88;
+}
+h1, h2 , h5, label{
+    color: #192f60;
+}
+.nav, .filter-field, .card-1-img-cont, .card-1-cont, .card-1-price{
+    display: grid;
+}
+.container, .nav, .nav-item, .page-view, .card-1{
+    width: 100%;
+    height: auto;
+}
+.search-field-location label{
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 2.2;
+}
+.sort label{
+    margin-left: 10px;
+    font-size: 12px;
+    font-weight: normal;
+    color: #8c96ab;
+}
